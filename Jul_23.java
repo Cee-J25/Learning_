@@ -5,6 +5,7 @@
  import java.awt.event.ActionListener;
 
 public class Jul_23 {
+ 
 //Creating Live Admin login users to say the least 
     private static String usernames[] = {"Cee J","Rasta","Lindo","Gipson","","","","","","","","","","","","",""
 
@@ -34,6 +35,7 @@ public class Jul_23 {
         JTextField userText = new JTextField(20);
         userText.setBounds(100,20,165,25);
         panel.add(userText);
+     
 //The password labels and edit for the user to type in the info...
         JLabel passLabel = new JLabel("Password: ");
         passLabel.setBounds(10,50,80,25);
@@ -41,10 +43,12 @@ public class Jul_23 {
         JTextField passText = new JTextField(20);
         passText.setBounds(100,50,165,25);
         panel.add(passText);
+     
 //The login button which is set to get the variables typed in and has a function to check if the information typed in is true or false in which if it is falsde the "Invalid login" message will appear and things will sort themselves out...
         JButton loginB = new JButton("Login");
         loginB.setBounds(10,80,80,25);
         panel.add(loginB);
+     
         //The login button which is set to get the variables typed in and has a function to check if the information typed in is true or false in which if it is falsde the "Invalid login" message will appear and things will sort themselves out...
         loginB.addActionListener(new ActionListener(){
             @Override
@@ -61,6 +65,7 @@ public class Jul_23 {
             }
         });
     }
+ 
 //This is the function that was previously discussed...
     private static  boolean authenticate(String user, String password){
         for (int i = 0; i < usernames.length; i++) {
