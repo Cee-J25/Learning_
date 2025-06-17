@@ -1,0 +1,25 @@
+
+body::before {
+    content: "";
+    position: fixed;/*Doesnt move*/
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-image: url('/Assets/miao.jpeg');/*Replace the background with an image*/
+    background-size: cover;/*Stets the whole webpage as the fitted size*/
+    background-position: center;
+    filter: blur(10px);
+    z-index: -1;/*Stes the image behind everything*/
+}
+
+body {
+    position: relative;
+    z-index: 0; /*Above the wallpaper*/
+    /* color: #CCCCCC; */
+    color: #999999;
+}
+
+
+
+
