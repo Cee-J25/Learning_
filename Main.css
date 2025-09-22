@@ -1,0 +1,45 @@
+h1 {
+    left: 20px;
+}
+
+#mySections {
+    padding: 50px;
+    left: 20px;
+    font-family:'Times New Roman', Times, serif;
+    display: grid;
+}
+
+.socials {
+    flex: 1;
+    justify-content: center;
+    display: flex;
+}
+
+.socials ul {
+    list-style-type: none;
+    margin: 0 20px;
+    padding: 0;
+    display: flex;
+    /* justify-content: center; */
+    /* justify-content: space-between; */
+    justify-content: space-evenly;
+}
+
+.socials ul li {
+    margin: 0 10px;
+}
+
+.socials ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    padding: 10px 20px; /* More horizontal padding */
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+    display: inline-block;
+    
+}
+
+.socials ul li a:hover {
+    background-color: #ddd;
+}

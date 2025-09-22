@@ -1,0 +1,29 @@
+.imagewrapper {
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    height: 30%;
+    margin-top: 1cm;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0;
+    border: none;
+    /* top: 1cm; */
+    background: none; /* No visible background */
+    box-sizing: border-box;
+    
+}
+
+#profilepic {
+    width: 80%;
+    /* top: 1cm; */
+    height: 30%;
+    align-self: center;
+    aspect-ratio: 3 / 4; /* Keeps it rectangular */
+    object-fit: cover; /* or use "cover" if you want it to fill and crop */
+    border-radius: 25px;
+    box-shadow: none; /* optional if you don't want any edge shadow */
+    display: block;
+}
